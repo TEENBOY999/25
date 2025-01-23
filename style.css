@@ -1,0 +1,14 @@
+.a {
+    width: 1000px;
+    background-color: red;
+    color: white;
+    height: 20vh;
+    font-size: 30px;
+}
+
+@media(max-width: 600px) {
+.a {
+display: flex;
+background-color: blue;
+}
+}
